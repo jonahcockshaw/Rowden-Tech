@@ -1,0 +1,271 @@
+<head>
+    <style>
+        :root {
+        
+        /* Fonts */
+      @font-face {
+        font-family: "IBMPlexSans";
+        src: url("/Fonts/IBMPlexSans-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+      
+      @font-face {
+        font-family: "IBMPlexSans";
+        src: url("/Fonts/IBMPlexSans-Italic.ttf") format("truetype");
+        font-weight: normal;
+        font-style: italic;
+      }
+      
+      @font-face {
+        font-family: "IBMPlexSans";
+        src: url("/Fonts/IBMPlexSans-Bold.ttf") format("truetype");
+        font-weight: bold;
+        font-style: normal;
+      }
+      
+      @font-face {
+        font-family: "IBMPlexSans";
+        src: url("/Fonts/IBMPlexSans-BoldItalic.ttf") format("truetype");
+        font-weight: bold;
+        font-style: italic;
+      }
+      @font-face {
+        font-family: "IBMPlexSans";
+        src: url("/Fonts/IBMPlexSans-Light.ttf") format("truetype");
+        font-weight: light;
+        font-style: normal;
+      }
+      
+      @font-face {
+        font-family: "IBMPlexSans";
+        src: url("/Fonts/IBMPlexSans-LightItalic.ttf") format("truetype");
+        font-weight: light;
+        font-style: italic;
+      }
+}
+
+body {
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    font-family: "IBMPlexSans", sans-serif;
+    /* Colours */
+    --blue: #175aef ;
+    --black: #231f20 ;
+    --yellow: #fbd765 ;
+}
+
+.header {
+    color: var(--black);
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.body-text { 
+    color: var(--black);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.blue-header {
+    color: var(--blue);
+}
+
+.blue-header-underline {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+.blue-body-text {
+    color: var(--blue);
+}
+
+.image {
+    width: 100%;
+    max-height: 595px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.image.hero {
+  margin-top: 0px;
+}
+
+.side-margins {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.get-in-touch {
+  color: var(--yellow);
+  text-decoration: underline;
+}
+
+.footer-text {
+  font-size: 28px;
+  line-height: 33.6px;
+}
+
+/* List Styling 
+li { list-style-image: url(/Logos/Asset 2.png; } */
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+li.type-1 {
+  list-style-image: url(/Logos/Asset\ 13.png);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+li.type-2 {
+  list-style-image: url(/Logos/Asset\ 2.png);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.footer-logo {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img class="image hero" src="/Images/Asset 7.png">
+    </section>
+
+    <!-- Main Content -->
+    <section class="body">
+
+        <!-- First Text Block -->
+        <div class="side-margins">
+          <h1 class="header">We solve complex government problems <span class="blue-header">with advanced technology</span></h1>
+          <p class="body-text">We provide engineering services and develop technologies that support the military, first responders and other frontline government personnel.</p>
+          <p class="body-text">We specialise in complex digital system design and integration; development and deployment of custom cloud solutions; application development; robotics and autonomous systems (RAS) and researching and developing systems that provide intelligence at the edge.</p>
+        </div>
+
+        <div class="side-margins">
+          <!-- Middle Image -->
+          <img class="image" src="/Images/ROWDEN_200.jpg">
+        </div>
+
+        <div class="side-margins"
+          <!-- Second Text Block -->
+          <h1 class="header">We bring smart people together to work on the <span class="blue-header">problems that matter.</span></h1>
+          <p class="body-text">Our multidisciplinary engineering team and ways of working makes us a next generation systems integrator:</p>
+            
+          <!-- First Columns -->
+            <div class="row">
+              <div class="column">
+                <ul>
+                  <li class="type-1">Always looking to increase pace</li><br>
+                  <li class="type-1">Software intensive</li>
+                </ul>
+              </div>
+              <div class="column">
+                <ul>
+                  <li class="type-1">An ‘open source first’ mentality</li><br>
+                  <li class="type-1">Collaborative and user-focused</li>
+                </ul>
+              </div>
+            </div>
+          <p class="body-text">We are passionate about delivering change in an established industry, and we’re looking for more people to join us!</p>
+        </div>
+        
+        <!-- Bottom Image -->
+        <img class="image" src="/Images/ROWDEN_076.jpg">
+
+        <!-- Third Text Block -->
+        <div class="side-margins">
+          <p class="body-text">Bean bags and beer fridges don’t make great workplaces – we believe in the importance of shared values, meaningful work, and mission focus.</p>
+          <p class="body-text">At Rowden you’ll feel challenged and will have the opportunity to rapidly grow your experience in a fast-paced, innovative scale-up company.</p>
+          <p class="body-text">If you want to do interesting work, and help drive our next phase of growth, <span class="blue-body-text-underline">take a look at our current roles below:</span></p>
+            <!-- Second Columns -->
+            <div class="row">
+              <div class="column">
+                <ul>
+                  <li class="type-2">
+                    Lead QA Engineer<br>
+                    £40,000-65,000<br>
+                    <a href="JOB LINK HERE" class="get-in-touch">Get in touch</a></li><br>
+                  <li class="type-2">
+                    Field Engineer<br>
+                    £30,00-50,000<br>
+                    <a href="JOB LINK HERE" class="get-in-touch">Get in touch</a></li><br>
+                  <li class="type-2">
+                    Software Engineers<br>
+                    £35,000-55,000<br>
+                    <a href="JOB LINK HERE" class="get-in-touch">Get in touch</a></li><br>
+                  <li class="type-2">
+                    Project Managers<br>
+                    £45,000-65,000<br>
+                    <a href="JOB LINK HERE" class="get-in-touch">Get in touch</a></li><br>
+                  <li class="type-2">
+                    Sales Development Representatives<br>
+                    £40,000-60,000 + Bonus<br>
+                    <a href="JOB LINK HERE" class="get-in-touch">Get in touch</a></li><br>
+                  <li class="type-2">
+                    VP Engineering<br>
+                    DOE<br>
+                    <a href="JOB LINK HERE" class="get-in-touch">Get in touch</a></li><br>
+                </ul>
+              </div>
+              <div class="column">
+                <ul>
+                  <li class="type-2">
+                    Product Owner<br>
+                    £50,000- 70,000<br>
+                    <a href="JOB LINK HERE" class="get-in-touch">Get in touch</a></li><br>
+                  <li class="type-2">
+                    Senior Android Developer<br>
+                    £65,000-75,000<br>
+                    <a href="JOB LINK HERE" class="get-in-touch">Get in touch</a></li><br>
+                  <li class="type-2">
+                    Senior Systems Engineer<br>
+                    £55,000-65,000<br>
+                    <a href="JOB LINK HERE" class="get-in-touch">Get in touch</a></li><br>
+                  <li class="type-2">
+                    Content & Editorial Manager<br>
+                    £35,000-45,000<br>
+                    <a href="JOB LINK HERE" class="get-in-touch">Get in touch</a></li><br>
+                  <li class="type-2">
+                    Customer Success Managers<br>
+                    £65,000-85,000 + Bonus<br>
+                    <a href="JOB LINK HERE" class="get-in-touch">Get in touch</a></li><br>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="side-margins">
+        <h3 class="footer-text">Can’t see a role for you? <span class="blue-header-underline">We’d like to hear from you!</span></h3>
+
+        <div class="footer">
+          <img class="footer-logo" src="/Logos/Asset 1.png">
+          <div class="social-icons">
+              <a href="https://www.linkedin.com/company/rowden/"><img class="social-icon" src="/Logos/Asset 10.png" href="https://www.linkedin.com/company/rowden/"></a>
+          </div>
+        </div>
+    </section>
+</body>
